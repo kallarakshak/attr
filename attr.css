@@ -1,0 +1,147 @@
+:root{
+    --ancolor:white;
+    --decor:none;
+    --bradius:5px;
+    --bcolor:gray;
+    --gradi: linear-gradient(to left, orange,rgb(56, 211, 222));
+    --size: large;
+    --radial: radial-gradient(white, skyblue);
+    --shadow: 2px 2px 3px black;
+    --link: blue;
+    
+}
+
+
+
+
+.parent{
+    background-color: black;
+    color: var(--ancolor);
+    display: flex;
+    gap: 50px;
+    justify-content:space-between;
+    /* font-size: large; */
+    font-size: var(--size);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-left: 20px;
+}
+.a{
+    color: white;
+    margin-top: 20px;
+}
+a{
+    color: var(--ancolor);
+    text-decoration: var(--decor);
+    
+    background-color: var(--bradius);
+}
+.b  a:hover{
+    background-color: var(--bcolor);
+    cursor: pointer;
+    border-radius: var(--bradius);
+}
+
+.b{
+    display: flex;
+    gap: 30px;
+    margin-right: 30px;
+}
+.welcome{
+    width: 75%;
+    height: 250px;
+    background: var(--gradi);
+    margin-top: 10px;
+    padding: 20px;
+    box-shadow: var(--shadow);
+    margin-left: 15px;
+
+
+}
+b{
+    font-size: 40px;
+
+}
+.main{
+    display: flex;
+    
+}
+.come{
+    display: flex;
+    
+}
+.box{
+    width: 150px;
+    height: 90px;
+    background-color: var(--bcolor);
+    padding-top: 70px;
+    text-align: center;
+}
+.aside{
+    background: var(--radial);
+    width: 22%;
+    margin-top: 10px;
+    box-shadow: var(--shadow);
+    margin-right: 15px;
+    display: grid;  
+}
+.aside a{
+    color: blue;
+    text-decoration: underline;
+    margin-left: 20px;
+ }
+ .box123{
+    display: flex;
+    gap: 30px;
+ }
+ .box12{
+    width: 200px;
+    height: 200px;
+    background-color: whitesmoke;
+    border: 2px solid black;
+ }
+ .box13{
+    width: 200px;
+    height: 120px;
+    background-color: gray;
+    text-align: center;
+    padding-top: 70px;
+    color: lightgray;
+ }
+ .box13 p{
+    width: 50px;
+    height: 20px;
+    margin-top: 70px;
+    margin-left: 5px;
+    background-color: black;
+    color: white;
+ }
+#s2{
+    width: 98%;
+    height: 20px;
+    margin-top: 7px;
+}
+#s3{
+    width: 98%;
+    height: 20px;
+    margin-top: 7px;
+
+}
+button{
+    width: 100%;
+    background-color: black;
+    color: var(--ancolor);
+    height: 40px;
+    border-radius: var(--bradius);
+    font-size: larger;
+}
+button:hover{
+    cursor: pointer;
+}
+footer{
+    width: 100%;
+    padding: 4d0px;
+    background-color: black;
+    color: var(--ancolor);
+    place-items: center;
+    text-align: center;
+}
